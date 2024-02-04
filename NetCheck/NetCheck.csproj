@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Deterministic>true</Deterministic>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<DebugType>embedded</DebugType>
+		<Optimize>true</Optimize>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageProjectUrl>https://github.com/commandlineparser/commandline</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageId>lowskilldev.NetChecker</PackageId>
+		<PackageTags>check network</PackageTags>
+		<Version>1.0.0</Version>
+		<Authors>RRV</Authors>
+		<Description>
+			Enables you to check network availability using ping ICMP
+			requests over the most common DNS servers
+			(Yandex, Google, Cloudflare, etc.) without
+			any platform-specific overhead.
+		</Description>
+	</PropertyGroup>
+
+</Project>

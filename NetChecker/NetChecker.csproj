@@ -18,18 +18,18 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<PackageProjectUrl>https://github.com/commandlineparser/commandline</PackageProjectUrl>
+		<PackageProjectUrl>github.com/low-skill-dev/devhelpers/tree/master/NetChecker</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageId>lowskilldev.NetChecker</PackageId>
+		<PackageId>devhelpers.NetChecker</PackageId>
 		<PackageTags>check network</PackageTags>
 		<Version>1.0.0</Version>
 		<Authors>RRV</Authors>
 		<Description>
 			Enables you to check network availability using ping ICMP
 			requests over the most common DNS servers
-			(Yandex, Google, Cloudflare, etc.) without
-			any platform-specific overhead.
+			(Yandex, Google, Cloudflare, etc.) without any 
+			platform-specific overhead. Use 'NetCheck' class.
 		</Description>
 	</PropertyGroup>
 

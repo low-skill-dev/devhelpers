@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkMonitor", "NetworkMo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkMonitor.Tests", "NetworkMonitor.Tests\NetworkMonitor.Tests.csproj", "{B30CEEBF-37EF-41FE-A617-0EB773884E45}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCheck", "NetCheck\NetCheck.csproj", "{D2585F2B-FD4D-498E-AF86-569E022238EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetChecker", "NetCheck\NetChecker.csproj", "{D2585F2B-FD4D-498E-AF86-569E022238EB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCheckTests", "NetCheck.Tests\NetCheckTests.csproj", "{C3B1330B-DE91-410A-8914-EEFA1B706D0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyCrypter", "SimpleAES\EasyCrypter.csproj", "{28317467-D84F-42D2-BA7B-C13249420C19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{7E61C06C-853F-48F7-970F-D9CBB7FF63E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +31,14 @@ Global
 		{D2585F2B-FD4D-498E-AF86-569E022238EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2585F2B-FD4D-498E-AF86-569E022238EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2585F2B-FD4D-498E-AF86-569E022238EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3B1330B-DE91-410A-8914-EEFA1B706D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3B1330B-DE91-410A-8914-EEFA1B706D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3B1330B-DE91-410A-8914-EEFA1B706D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3B1330B-DE91-410A-8914-EEFA1B706D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28317467-D84F-42D2-BA7B-C13249420C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28317467-D84F-42D2-BA7B-C13249420C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28317467-D84F-42D2-BA7B-C13249420C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28317467-D84F-42D2-BA7B-C13249420C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E61C06C-853F-48F7-970F-D9CBB7FF63E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E61C06C-853F-48F7-970F-D9CBB7FF63E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E61C06C-853F-48F7-970F-D9CBB7FF63E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E61C06C-853F-48F7-970F-D9CBB7FF63E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

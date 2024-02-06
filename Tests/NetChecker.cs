@@ -1,9 +1,8 @@
-using Xunit;
 using NetChecker;
 
 namespace NetCheckTests;
 
-public class Common
+public class NetChecker
 {
 	[Fact]
 	public async Task CanCheck()

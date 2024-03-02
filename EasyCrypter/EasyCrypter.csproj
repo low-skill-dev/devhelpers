@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="../base.props" />
+
+	<PropertyGroup>
+		<PackageProjectUrl>github.com/low-skill-dev/devhelpers/tree/master/EasyCrypter</PackageProjectUrl>
+		<PackageId>devhelpers.EasyCrypter</PackageId>
+		<PackageTags>easy encrypt; aes; aes256; aes256gcm</PackageTags>
+		<Version>1.0.0</Version>
+		<Description>
+			Provides as simple as possible ability
+			to use modern AES_256_GCM encryption
+			protocol. Use 'EasyAES' class.
+		</Description>
+	</PropertyGroup>
+
+</Project>

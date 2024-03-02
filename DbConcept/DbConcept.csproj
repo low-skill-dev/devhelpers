@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="../base.props" />
+
+	<PropertyGroup>
+		<PackageProjectUrl>github.com/low-skill-dev/devhelpers/tree/master/EasyCrypter</PackageProjectUrl>
+		<PackageId>devhelpers.DbConcept</PackageId>
+		<Version>1.0.0</Version>
+		<Description>
+			Provides basic ORM models.
+		</Description>
+	</PropertyGroup>
+
+</Project>

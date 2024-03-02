@@ -2,7 +2,7 @@
 
 namespace NetChecker;
 
-public class NetCheck
+public static class NetCheck
 {
 	private static readonly string[] _servers =
 	{

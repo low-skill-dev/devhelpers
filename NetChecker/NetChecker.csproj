@@ -1,35 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
-		<PlatformTarget>AnyCPU</PlatformTarget>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Deterministic>true</Deterministic>
-		<Nullable>enable</Nullable>
-	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(Configuration)'=='Release'">
-		<DebugType>embedded</DebugType>
-		<Optimize>true</Optimize>
-	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
-		<DebugType>full</DebugType>
-		<Optimize>false</Optimize>
-	</PropertyGroup>
+	<Import Project="../base.props" />
 
 	<PropertyGroup>
 		<PackageProjectUrl>github.com/low-skill-dev/devhelpers/tree/master/NetChecker</PackageProjectUrl>
-		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageId>devhelpers.NetChecker</PackageId>
 		<PackageTags>check network</PackageTags>
-		<Version>1.0.0</Version>
-		<Authors>RRV</Authors>
+		<Version>1.0.2</Version>
 		<Description>
-			Enables you to check network availability using ping ICMP
-			requests over the most common DNS servers
-			(Yandex, Google, Cloudflare, etc.) without any 
-			platform-specific overhead. Use 'NetCheck' class.
+			Enables you to check network availability
+			using ping ICMP requests over the most common 
+			DNS servers (Yandex, Google, Cloudflare, etc.) 
+			without any platform-specific overhead. 
+			Use 'NetCheck' class.
 		</Description>
 	</PropertyGroup>
 

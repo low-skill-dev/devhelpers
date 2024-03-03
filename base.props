@@ -11,6 +11,7 @@
 		<PlatformTarget>AnyCPU</PlatformTarget>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Deterministic>true</Deterministic>
+		<IsPackable>true</IsPackable>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 

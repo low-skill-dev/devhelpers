@@ -3,10 +3,10 @@
 	<Import Project="../base.props" />
 
 	<PropertyGroup>
-		<PackageProjectUrl>github.com/low-skill-dev/devhelpers/tree/master/EasyCrypter</PackageProjectUrl>
-		<PackageId>devhelpers.EasyCrypter</PackageId>
+		<PackageProjectUrl>github.com/low-skill-dev/devhelpers/tree/master/$(MSBuildProjectName)</PackageProjectUrl>
+		<PackageId>devhelpers.$(MSBuildProjectName)</PackageId>
 		<PackageTags>easy encrypt; aes; aes256; aes256gcm</PackageTags>
-		<Version>1.0.0</Version>
+		<Version>1.0.2</Version>
 		<Description>
 			Provides as simple as possible ability
 			to use modern AES_256_GCM encryption

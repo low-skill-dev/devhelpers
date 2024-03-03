@@ -1,7 +1,7 @@
 using Xunit;
 using NetChecker;
 
-namespace NetCheckTests;
+namespace Tests;
 
 #pragma warning disable xUnit1013
 
